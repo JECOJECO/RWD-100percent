@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1063455048778121266/1063470031612157962/LittleShoddyDuckbillcat-max-1mb.gif);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+.container {
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+}
+
+#navbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 1;
+    max-width: 100%;
+    width: 100%;
+    max-height: 5%;
+}
+
+#navbar h1{
+    float: left;
+    padding: .7% 0 1% 2%;
+    color: white;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 1.5vw;
+    text-shadow: 0 0 8px #e45bff;
+    letter-spacing: .3vw;
+}
+
+#navbar ul{
+    list-style: none;
+    /* float: right; */
+    margin-left: 60%;
+    padding-left: 2%;
+}
+
+#navbar li{
+    padding: -1.6% 20% -2% 0%;
+    margin: 0% 0% 0% 5%;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 1.2vw;
+    margin-top: 2.2%;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #c2c2c2;
+}
+#navbar a:hover {
+    color: #c98ae3;
+    text-shadow: 0 0 6px #d439f3;
+}
+
+/* .meContact{
+    padding: 10% 0 0 35%;
+    width: 70%;
+} */
+
+#picContact{
+    /* padding: 5% 0 0 30%; */
+    padding: 10% 0 0 30%;
+    position: relative;
+    display: inline-block;
+}
+
+.contactsign{
+    color: #fdf1ff;
+    text-shadow: 0 0 15px #e45bff;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 10%;
+    font-family: DEADLY KILLERS DEMO;
+    letter-spacing: .5vw;
+}
+
+.meContactHover{
+    width: 60%;
+}
+
+#picContact .meContact{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5% 0 0 30%;
+    width: 72%;
+
+}
+
+#picContact:hover .meContact{
+    display: block;
+    transition: 1s;
+}
+
+.accounts {
+    float: left;
+    width: 50%;
+    /* background-color: #c98ae3; */
+}
+.accounts1 {
+    float: left;
+    width: 50%;
+}
+
+/* .bglogo {
+    background-color: #d439f3;
+    width: 10%;
+    border: 2px solid;
+    margin: 5%;
+    padding: 10%;
+} */
+
+.igLogo {
+    width: 90%;
+    /* padding: 0% 10% 30% 10%; */
+    margin: 0% 0% 40% 7%;
+    /* background-color: #c98ae3; */
+}
+
+.asLogo {
+    width: 90%;
+    /* padding: 5% 10% 15% 10%; */
+    margin: 0% 0% 40% 5%;
+}
+
+/* #linkss{
+    margin: 5%;
+    background-color: aliceblue;
+    border: 2% solid;
+} */
+
+.bglogo {
+    width: 50%;
+    padding: 5% 10% 15% 10%;
+    margin: 30% 10% 10% 30%;
+    background-image: linear-gradient(rgb(97, 97, 97), rgb(8, 8, 8)) ;
+    border-radius: 2%;
+    color: #2c2c2c;
+    text-shadow: 0 0 15px #f8e7ff;
+}
+
+.igLink{
+    float: left;
+    padding: 0 0 20% 10%;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 3vw;
+}
+
+.artstationLink{
+    float: right;
+    padding: 0 10% 0 0;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 3vw;
+}
+.asLogo .a {
+    color: #c98ae3;
+}

@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1063455048778121266/1063470031612157962/LittleShoddyDuckbillcat-max-1mb.gif);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+.container {
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: auto;
+}
+
+#navbar {
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+    max-height: 5%;
+}
+
+#navbar h1{
+    float: left;
+    padding: .7% 0 1% 2%;
+    color: white;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 1.5vw;
+    text-shadow: 0 0 8px #e45bff;
+    letter-spacing: .3vw;
+}
+
+#navbar ul{
+    list-style: none;
+    /* float: right; */
+    margin-left: 60%;
+    padding-left: 2%;
+}
+
+#navbar li{
+    padding: -1.6% 20% -2% 0%;
+    margin: 0% 0% 0% 5%;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 1.2vw;
+    margin-top: 2.2%;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: #c2c2c2;
+}
+#navbar a:hover {
+    color: #c98ae3;
+    text-shadow: 0 0 6px #d439f3;
+}
+
+a{
+    width: 1%;
+
+}
+p
+#introduction p{
+    margin-bottom: 10px;
+    font-family: Metropolitan;
+    font-size: 250%;
+}
+
+#introduction2 p{
+    margin-bottom: 10px;
+    font-family: Metropolitan;
+    font-size: 170%;
+}
+
+#introduction {
+    margin: .5%;
+    padding: .5;
+}
+
+#dpport{
+    margin: 2%;
+}
+
+/* .grimDp0 {
+	position: relative;
+	overflow: hidden;
+}
+.grimDp img {
+	position: relative;
+	z-index: 1;
+	display: block;
+    max-width: 60%;
+    padding: 10% 0% 0% 30%;
+    margin: 5%;
+}
+.glitch__layers {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.glitch__layer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-image: url(https://cdn.discordapp.com/attachments/1063090075224772639/1063135928752808038/Grimewdp.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.glitch__layer:nth-child(1) {
+	transform: translateX(-5%);
+	animation: glitch-anim-1 2s infinite linear alternate;
+}
+.glitch__layer:nth-child(2) {
+	transform: translateX(3%) translateY(3%);
+	animation: glitch-anim-2 2.3s -.8s infinite linear alternate;
+}
+.glitch__layer:nth-child(3) {
+	transform: translateX(5%);
+	animation: glitch-anim-flash 1s infinite linear;
+}
+@keyframes glitch-anim-1 {
+	0% {
+		clip-path: polygon(0 0%, 100% 0%, 100% 5%, 0 5%);
+	}
+	10% {
+		clip-path: polygon(0 15%, 100% 15%, 100% 15%, 0 15%);
+	}
+	20% {
+		clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%);
+	}
+	30% {
+		clip-path: polygon(0 1%, 100% 1%, 100% 2%, 0 2%);
+	}
+	40% {
+		clip-path: polygon(0 35%, 100% 35%, 100% 35%, 0 35%);
+	}
+	50% {
+		clip-path: polygon(0 45%, 100% 45%, 100% 46%, 0 46%);
+	}
+	60% {
+		clip-path: polygon(0 50%, 100% 50%, 100% 70%, 0 70%);
+	}
+	70% {
+		clip-path: polygon(0 70%, 100% 70%, 100% 70%, 0 70%);
+	}
+	80% {
+		clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
+	}
+	90% {
+		clip-path: polygon(0 50%, 100% 50%, 100% 55%, 0 55%);
+	}
+	100% {
+		clip-path: polygon(0 60%, 100% 60%, 100% 70%, 0 70%);
+	}
+}
+@keyframes glitch-anim-2 {
+	0% {
+		clip-path: polygon(0 15%, 100% 15%, 100% 30%, 0 30%);
+	}
+	15% {
+		clip-path: polygon(0 3%, 100% 3%, 100% 3%, 0 3%);
+	}
+	25% {
+		clip-path: polygon(0 8%, 100% 8%, 100% 20%, 0 20%);
+	}
+	30% {
+		clip-path: polygon(0 20%, 100% 20%, 100% 20%, 0 20%);
+	}
+	45% {
+		clip-path: polygon(0 45%, 100% 45%, 100% 45%, 0 45%);
+	}
+	50% {
+		clip-path: polygon(0 50%, 100% 50%, 100% 57%, 0 57%);
+	}
+	65% {
+		clip-path: polygon(0 60%, 100% 60%, 100% 60%, 0 60%);
+	}
+	75% {
+		clip-path: polygon(0 80%, 100% 80%, 100% 80%, 0 80%);
+	}
+	80% {
+		clip-path: polygon(0 40%, 100% 40%, 100% 60%, 0 60%);
+	}
+	95% {
+		clip-path: polygon(0 45%, 100% 45%, 100% 60%, 0 60%);
+	}
+	100% {
+		clip-path: polygon(0 11%, 100% 11%, 100% 15%, 0 15%);
+	}
+}
+@keyframes glitch-anim-flash {
+	0% {
+		opacity: .2;
+	}
+	30%, 100% {
+		opacity: 0;
+	}
+} */
+.grimDp{
+    max-width: 60%;
+    padding: 10% 0% 0% 30%;
+    margin: 5%;
+    /* width: .5%; */
+}
+
+.info{
+    text-align: center;
+    padding-top: 5%;
+    line-height: 2.2em;
+    color: aliceblue;
+    font-family: DEADLY KILLERS DEMO;
+    font-size: 3vw;
+}
+mark{
+    
+    color: #fbe7ff;
+    text-shadow: 0 0 12px #e45bff;
+    background-color: rgba(0, 0, 0, 0);
+}
+.info2{
+    text-align: center;
+    padding-top: 1%;
+    line-height: 2.2em;
+    color: aliceblue;
+    font-size: 1vw;
+}
+
+.info3{
+    color: aliceblue;
+    font-size: 1vw;
+    margin: 10% 2% 0% 1.5%;
+    font-family: DEADLY KILLERS DEMO;
+    text-align: center;
+}
+
+#introduction3{
+    padding-top: 5%;
+    display: flex;
+    
+    /* margin: 5% 0% 5% 0%;
+    padding: 0% 0% 1% 5%; */
+    
+}
+
+.app1{
+    font-family: DEADLY KILLERS DEMO;
+    color: #c98ae3;
+    margin: 0% 5% 0% 5%;
+    font-size: 1.5vw;
+}
+.app2{
+    font-family: DEADLY KILLERS DEMO;
+    color: #c98ae3;
+    margin: 0% 5% 0% 5%;
+    font-size: 1.5vw;
+}
+.app3{
+    font-family: DEADLY KILLERS DEMO;
+    color: #c98ae3;
+    margin: 0% 5% 0% 5%;
+    font-size: 1.5vw;
+}
+.app4{
+    font-family: DEADLY KILLERS DEMO;
+    color: #c98ae3;
+    margin: 0% 5% 0% 5%;
+    font-size: 1.5vw;
+}
+.app5{
+    font-family: DEADLY KILLERS DEMO;
+    color: #c98ae3;
+    margin: 0% 5% 0% 5%;
+    font-size: 1.5vw;
+}
+.app6{
+    font-family: DEADLY KILLERS DEMO;
+    color: #c98ae3;
+    margin: 0% 5% 0% 5%;
+    font-size: 1.5vw;
+}
+
+#softwares {
+    display: flex;
+    grid-template-columns: 10fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+.apps {
+    padding: -1.6% 20% -2% 0%;
+
+}
+
+.soft1{
+    float: left;
+    border-radius: 2%;
+    height: 50%;
+    width: 20%;
+    object-fit: cover;
+}
+
+.soft2{
+    float: left;
+    border-radius: 2%;
+    height: 50%;
+    margin-top: 2%;
+    margin-left: 3.4%;
+    width: 10%;
+    object-fit: cover;
+}
+
+.soft3{
+    float: left;
+    border-radius: 2%;
+    height: 50%;
+    margin-top: 2.5%;
+    margin-left: 6.5%;
+    width: 10%;
+    object-fit: cover;
+}
+
+.soft4{
+    float: left;
+    border-radius: 2%;
+    height: 50%;
+    margin-top: 2.5%;
+    margin-left: 4%;
+    width: 9%;
+    object-fit: cover;
+}
+
+.soft5{
+    float: left;
+    border-radius: 2%;
+    height: 50%;
+    margin-top: 2.5%;
+    margin-left: 7%;
+    width: 9%;
+    object-fit: cover;
+}
+.soft6{
+    float: left;
+    border-radius: 2%;
+    height: 50%;
+    margin-top: 2.5%;
+    margin-left: 6.5%;
+    width: 9%;
+    object-fit: cover;
+}
+
+#videoswip .gdriveVideos {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+#allworks{
+    /* display: flex; */
+    grid-template-columns: 10fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+@font-face {
+    font-family: insertFontStyle;
+    src: url(https://cdn.discordapp.com/attachments/973391908833493073/1064074626793218118/Another_Danger.otf);
+}
+#allworks p{
+    margin-top: 2%;
+    /* margin-bottom: .5%; */
+    color: aliceblue;
+    font-family: DEADLY KILLERS DEMO;
+    letter-spacing: .2vw;
+    font-size: 1.2vw;
+}
+
+.work1{
+    width: 75%;
+    padding: 10% 0% 0% 30%;
+}
+
+.work2{
+    width: 75%;
+    padding: 20% 0% 0% 30%;
+}
+
+.work3{
+    width: 75%;
+    padding: 20% 0% 0% 30%;
+}
+
+.work4{
+    width: 75%;
+    padding: 20% 0% 0% 30%;
+}
+
+.work5{
+    width: 80%;
+    padding: 20% 0% 0% 24%;
+}
+.work6{
+    width: 80%;
+    padding: 20% 0% 0% 24%;
+}
+.work7{
+    width: 80%;
+    padding: 20% 0% 0% 24%;
+}
+.work8{
+    width: 80%;
+    padding: 20% 0% 0% 24%;
+}
